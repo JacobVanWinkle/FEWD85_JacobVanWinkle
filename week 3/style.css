@@ -1,0 +1,339 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     
+      
+}
+
+
+#container h1 {
+  padding: 100px 0 0 0;
+
+}
+
+#top-div{
+  height:530px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+#middle-div{
+  height:470px;
+  background-color: white;
+}
+
+h1 {
+     color: #fff;
+     font-size: 44px;
+     padding: 25px 0 90px 120px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800
+}
+
+
+
+
+h2 {
+     color: #fff;
+     font-size: 44px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600
+
+     }
+
+
+h3{
+
+     color: #033048;
+     font-size: 37px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600
+}
+
+
+h4,
+.first-list{
+
+     color: #606161;
+     font-size: 26px;
+     font-family: 'Open Sans', sans-serif;
+     padding: 10px 0 0 0;
+}
+
+
+
+
+
+#middle-div{
+       padding: 65px 0 0px 120px;
+       font-weight: 300
+
+}
+
+
+
+#middle-div-paragraph{   
+     padding: 10px 0  0  20px;
+}
+
+
+#list{   
+     padding: 50px 0  0  0;
+     font-size: 28px;
+}
+
+ol,
+ul {
+  list-style: disc;
+}
+
+.first-list{
+      padding-left: 100px;
+      padding-top: 50px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+
+.button {
+  display: block;
+  height: 65px;
+  width: 300px;
+  background: #f9e42e;
+  color:#033048;
+  text-align:center;
+  font: bold 2.5em/100px "Helvetica", Arial, Helvetica, sans-serif;
+  line-height: 65px; 
+  -webkit-border-radius: 7px;
+
+
+}
+
+a.button {
+    text-decoration: none;
+}
+
+#get_it_now_button{
+   padding: 100px 0 0px 0px;
+}
+
+
+.whitebar {
+  display: block;
+  height: 205px;
+  width: absolute;
+  background: #fff;
+  color:#033048;
+  text-align:center;
+  font: bold 2.5em/100px "Helvetica", Arial, Helvetica, sans-serif;
+  line-height: 65px; 
+
+}
+
+
+
+
+#bottom-div{
+  height:430px;
+  background: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+  width: absolute;
+  padding: 70px 0px 0px 0px;
+ font-family: 'Open Sans', sans-serif;
+     font-weight: 300 italic
+
+}
+
+
+h5{
+
+   color: #fff;
+     font-size: 35px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 100;
+     font-style: italic;
+     
+}
+
+
+
+
+
+
+.testimonila_author{
+
+   color: #fff;
+     font-size: 35px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600
+
+
+}
+
+
+
+.bottom_yellow_bar{
+
+  height:120px;
+  background-color: #f9e42e;
+}
+  
+
+
+#sign_up_now_button_shell{
+
+  padding: 29px 0px 0px 0px
+}
+
+  .sign_up_now_button {
+
+  display: block;
+  height: 65px;
+  width: 300px;
+  background: #033048;
+  color:#fff;
+  text-align:center;
+  font: bold 1.9em/100px "Helvetica", Arial, Helvetica, sans-serif;
+  line-height: 65px; 
+  -webkit-border-radius: 7px;
+
+
+
+}
+
+a.sign_up_now_button {
+    text-decoration: none;
+}
+
+
+  
+
+
+
+.footer{
+
+  height:370px;
+  background-color: #121212
+
+
+}
+
+
+h6{
+
+  color: #f9e42e;
+     font-size: 44px;
+     padding: 60px 0 70px 0px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 800
+}
+
+
+#copyright {
+
+
+color: #fff;
+     font-size: 16px;
+     font-family: 'Open Sans', sans-serif;
+     padding: 100px 0 0 0;
+     font-weight: 400
+}
+
+
+
+
+
+.twitter{
+
+padding-right: 20px
+
+}
+
+
+
+
+
+
+.social_icon{
+ padding: 0px 30px ;
+}
+
+
+
+
+
+.top_bar{
+
+  height:370px;
+  background-color: #121212
+
+  
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+

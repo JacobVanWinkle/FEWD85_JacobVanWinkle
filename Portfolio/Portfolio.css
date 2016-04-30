@@ -45,3 +45,10 @@ h2{font-size: 19px
     font-family: "helvetica";
     }
 
+
+
+
+#wrapper{
+    width: 720px;
+    margin: 0 auto;
+}
