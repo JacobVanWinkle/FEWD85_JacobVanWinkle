@@ -232,11 +232,6 @@ h5{
 
 
 
-.bottom_yellow_bar{
-
-  height:120px;
-  background-color: #f9e42e;
-}
   
 
 
@@ -362,7 +357,7 @@ ul{
 }
 
 
-  li {
+.top_bar li {
 
     float: left;
     margin-right: 20px;
@@ -383,12 +378,14 @@ ul{
 
 
 
-.middle_div_blog{
+.middle_div_blog {
 
-display: block;
-  height: 905px;
+  display: block;
   width: absolute;
   background: #fff;
+  height: 3000px;
+  float: left;
+  
 
 }
 
@@ -406,6 +403,11 @@ color: #033048;
 
 
 
+.blog_image_two{
+   padding: 80px 0px 0px -80px;
+   float: left;
+
+ }
 
 
 
@@ -418,6 +420,144 @@ color: #033048;
 
 
 }
+
+
+.middle_div_blog{
+float: left;
+
+}
+
+.middle_div_blog_right{
+  float: right;
+  display:block;
+  width: 350px;
+  height: 700px;
+  border: solid 0px black;
+
+  color: #033048;
+
+
+}
+
+
+  .middle_div_copy{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 100px;
+  color: #606161;
+  width: 860px;
+
+  padding: 20px 0px 0px 120px;
+
+  }
+
+    
+
+
+
+
+
+
+.bottom_yellow_bar{
+
+  height:120px;
+  background-color: #f9e42e;
+  clear: both;
+}
+
+
+
+
+.middle_div_blog_right li {
+  color: #033048;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+     font-weight: 300;
+     border: solid 0px black;
+margin-left: 0px;
+margin-top: 0px
+padding: 0px 0px 0px 0px; 
+text-align:top;
+
+}
+
+
+.categories{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  padding-top: 29px
+  padding-bottom: 100px
+
+
+
+}
+
+
+.middle_div_blog_right ul{
+
+  float:left;
+  padding-top: 15px
+}
+
+
+
+
+
+.categories ul {
+
+  padding-top: 25px;
+}
+
+
+.categories_text{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  padding-top: 25px
+  padding-bottom: 100px;
+  color: #033048;
+
+
+}
+
+.about_relaxr{
+   font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  padding-top: 29px
+  padding-bottom: 100px
+}
+
+.blog_headline_two{
+
+  color: #033048;
+     font-size: 40px;
+     padding: 70px 0 0px 0px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600;
+     
+
+}
+
+
+
+
+  .middle_div_copy_two{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 100px;
+  color: #606161;
+  width: 860px;
+
+  padding: 20px 0px 0px 0px;
+
+  }
 
 
 
