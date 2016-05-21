@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Cubanyc</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300,600,300italic' rel='stylesheet' type='text/css'>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      
+    </script>
+
+  </head>
+
+
+
+  <body>
+
+
+
+
+    <div class="top_logo"> 
+    <img src="images/cubanyc_logo_02.png">
+    </div>
+
+
+<div id="menu">
+<ul>
+
+<li><a href="index.html">00 Home</a></li>
+
+<li><a href="aboutus.html">01 About</a></li>
+
+<li><a href="services.html">02 Blog</a></li>
+
+<li><a href="contactus.html">03 Ratings</a></li>
+
+<li><a href="contactus.html">04 Contact</a></li>
+
+
+</ul>
+</div>
+
+
+
+
+    <div class="cubanyc_01"> 
+    <img src="images/cubanyc_01.png">
+    </div>
+
+
+
+    <div class="cuba_02"> 
+    <img src="images/cuba_02.png">
+    </div>
+
+
+ <div class="cubanyc_02"> 
+    <img src="images/cubanyc_02.png">
+    </div>
+
+
+
+ <div class="cubanyc_03"> 
+    <img src="images/cubanyc_03.png">
+    </div>
+
+
+
+
+
+
+<footer>
+     
+
+   
+    </footer>
+
+  </body>
+</html>
